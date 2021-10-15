@@ -109,7 +109,7 @@ a:hover {
 meridiem {
   width:28px;
   padding:2px;
-  border:1px solid #2196F3;
+  border:1px solid #333;
   box-sizing:border-box;
   opacity:0.5;
   -webkit-filter:grayscale(100%);
