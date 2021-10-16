@@ -5,7 +5,7 @@ let body = document.getElementById("body-app"),
     toggle = document.createElement("div");
 toggle.setAttribute("id", "toggle");
 meridiem.onclick = () => {
-    if(meridiem.classList.value === 'hover') {
+    if (meridiem.classList.value === 'hover') {
         meridiem.classList.remove('hover');
     } else {
         meridiem.classList.add('hover');
@@ -16,7 +16,7 @@ let navigation = document.createElement("navigation"),
     hfMain = document.createElement("hf-main"),
     article = document.createElement("article");
 article.innerHTML = "Hello you!";
-let navs = ["Works", "Credits", "About me"];
+let navs = ["Credits", "About me"];
 function links(e) {
     let a = document.createElement("span");
     return (a.innerHTML = e), a;
@@ -32,19 +32,6 @@ function contents(e) {
         (e.innerHTML =
             '<img src="/huseinfahmi.jpg" width="100" height="100"><parag>Hello, you!</parag><parag>My name is Husein Fahmi. I\'m a Indonesian JavaScipt Eager-Learner living in Special Region of Yogyakarta with a passion for design, art, and technology.</parag><parag>If you want to say "hello, you!" to me. Just send an email to husefahmi@gmail.com</parag><parag>Also find me on: <a href="https://www.behance.net/huseinfahmi" target="_blank">Behance</a> and <a href="https://github.com/huseinfahmi" target="_blank">GitHub</a>.</parag>'),
             document.querySelector("hf-main").appendChild(e);
-    } else {
-        let e = document.createElement("article"),
-            a = document.createElement("title");
-        (a.innerHTML = "TRex Odd"), e.appendChild(a);
-        let n = document.createElement("content");
-        (n.innerHTML = "TRex Game is a colorful, fast-paced, competitive card game you play in browser internet disconnected."), e.appendChild(n), document.querySelector("hf-main").appendChild(e);
-        let t = document.createElement("article"),
-            i = document.createElement("title");
-        (i.innerHTML = "Sumali Brand Maker"), t.appendChild(i);
-        let r = document.createElement("content");
-        (r.innerHTML = "Delicious, healthy and blended with Greenfields fresh milk, our ready-to-drink yogurt is a convenient and delicious way to get your daily dose of dietary fibre!."),
-            t.appendChild(r),
-            document.querySelector("hf-main").appendChild(t);
     }
 }
 function clearAllActiveNav() {
