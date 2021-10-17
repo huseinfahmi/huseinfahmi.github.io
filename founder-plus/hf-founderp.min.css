@@ -27,12 +27,6 @@ hf-head-fp {
     }
 }
 
-@media only screen and (min-width: 768px) {
-    hf-head-fp {
-        width: 490px;
-    }
-}
-
 multiple {
     display: flex;
     flex-wrap: nowrap;
