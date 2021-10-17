@@ -15,7 +15,7 @@ meridiem.appendChild(toggle)
 let navigation = document.createElement("navigation"),
     hfMain = document.createElement("hf-main"),
     article = document.createElement("article");
-article.innerHTML = '<img src="/hxsf.jpg" width="100%" height="auto"><parag>Hello, you!</parag>';
+article.innerHTML = '<img src="/hxsf.jpg" width="100%" height="auto"><parag>Our ingredients, those times</parag><parag>Hello, you! this is my personal page. hope this will happen continuously, share some of mine here. if you have found something to talk about, just say "hello, you!" to me</parag>';
 let navs = ["Credits", "About me"];
 function links(e) {
     let a = document.createElement("span");
