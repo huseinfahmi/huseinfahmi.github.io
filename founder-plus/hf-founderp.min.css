@@ -19,15 +19,17 @@ hf-head-fp {
     hf-head-fp {
         width: 425px;
     }
-
-    multiple {
-        flex-wrap: wrap;
-    }
 }
 
 @media only screen and (min-width: 768px) {
     hf-head-fp {
         width: 490px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    multiple {
+        flex-wrap: wrap;
     }
 }
 
