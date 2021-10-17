@@ -165,7 +165,7 @@ toggle.on {
   border: 1px solid #FF605C !important;
 }
 
-.lock {
+img {
   user-drag: none;
   -webkit-user-drag: none;
   user-select: none;
