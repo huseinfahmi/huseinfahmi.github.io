@@ -9,7 +9,7 @@ let body = document.getElementById("body-app"),
     hfMain = document.createElement("hf-main"),
     article = document.createElement("article");
 
-info.innerHTML = 'founder-plus'
+info.innerHTML = 'page: founder-plus'
 note.innerHTML = 'turn on the lights'
 toggle.setAttribute('class', 'off')
 toggle.appendChild(bullet)
