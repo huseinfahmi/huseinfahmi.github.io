@@ -30,16 +30,17 @@ hf-head {
 meridiem {
   font-size: smaller;
   cursor: pointer;
+  display: flex;
 }
 
 navigation {
   font-size: smaller;
 }
-navigation span {
+navigation moveto {
   margin-left: 1rem;
   cursor: pointer;
 }
-navigation span:hover {
+navigation moveto:hover {
   text-decoration: line-through;
 }
 
@@ -104,22 +105,33 @@ a:hover {
   }
 }
 
+@keyframes blinker { 
+  50% { opacity: 0; }
+}
+
 /* switch togle */
 
-meridiem {
+note {
+  margin-left: 34px;
+  font-style: italic;
+  font-size: x-small;
+  position: absolute;
+  animation: blinker 4s linear infinite;
+  color: #6CF0F5;
+}
+
+toggle {
   width:28px;
   padding:2px;
   border:1px solid #6CF0F5;
   box-sizing:border-box;
-  opacity:0.5;
-  -webkit-filter:grayscale(100%);
-  -webkit-transition:all 03s;
   transition:all 0.3s;
-  border-radius:15px;
+  border-radius:8px;
   cursor:pointer
 }
 
-#toggle {
+bullet {
+  display: block;
   width:10px;
   height:10px;
   background:#6CF0F5;
@@ -130,12 +142,13 @@ meridiem {
   -webkit-transition:all 0.2s;
 }
 
-meridiem.hover #toggle {
+toggle.on bullet {
+  background:#FF605C!important;
   left:12px;
 }
-meridiem.hover {
+toggle.on {
   -webkit-filter:none;
-  opacity:1
+  border: 1px solid #FF605C!important;
 }
 
 /*# sourceMappingURL=huseinfahmi.min.css.map */
