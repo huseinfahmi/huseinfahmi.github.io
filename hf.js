@@ -5,7 +5,7 @@ let body = document.getElementById("body-app"),
     toggle = document.createElement("toggle"),
     bullet = document.createElement("bullet"),
     note = document.createElement("note");
-note.innerHTML = 'your note'
+note.innerHTML = 'turn on the lights'
 toggle.setAttribute('class', 'off')
 toggle.appendChild(bullet)
 meridiem.appendChild(toggle)
@@ -68,18 +68,20 @@ linkclr = param => {
 
 toggle.onclick = () => {
     if (toggle.classList.value === 'off') {
-        toggle.setAttribute('class', 'on');
-        body.style.backgroundColor = '#fafafa';
-        body.style.color = '#363636';
-        body.style.fontWeight = "500";
-        document.querySelector('note').style.color = '#FF605C'
+        toggle.setAttribute('class', 'on')
+        body.style.backgroundColor = '#fafafa'
+        body.style.color = '#363636'
+        body.style.fontWeight = "500"
+        note.style.color = '#FF605C'
+        note.innerHTML = 'turn off the lights'
         linkclr()
     } else {
         toggle.setAttribute('class', 'off');
         body.style.backgroundColor = '#161616';
         body.style.color = '#f4f4f4';
         body.style.fontWeight = "normal";
-        document.querySelector('note').style.color = '#6CF0F5'
+        note.style.color = '#6CF0F5'
+        note.innerHTML = 'turn on the lights'
         linkclr()
     }
 }
