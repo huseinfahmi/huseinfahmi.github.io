@@ -26,3 +26,13 @@ hf-head-fp {
         width: 490px;
     }
 }
+
+multiple {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: -5px;
+}
+
+box {
+    margin: 5px;
+}
