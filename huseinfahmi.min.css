@@ -34,7 +34,8 @@ meridiem {
   display: flex;
 }
 
-navigation {
+navigation,
+info {
   font-size: smaller;
 }
 
