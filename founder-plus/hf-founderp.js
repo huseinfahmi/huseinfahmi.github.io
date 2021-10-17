@@ -16,7 +16,7 @@ toggle.appendChild(bullet)
 meridiem.appendChild(toggle)
 meridiem.appendChild(note)
 
-article.innerHTML = '<img src="/hxsf.jpg" width="100%" height="auto"><img src="/hxsf.jpg" width="100%" height="auto"><img src="/hxsf.jpg" width="100%" height="auto"><img src="/hxsf.jpg" width="100%" height="auto"><img src="/hxsf.jpg" width="100%" height="auto"><parag>Our ingredients, those times.</parag><parag>Hello, you! this is my personal page. hope this will happen continuously &mdash;share some of mine here. if you have found something to talk about, just say "Hello, you!" to me</parag>';
+article.innerHTML = '<img src="/hxsf.jpg" width="100%" height="auto"><parag>Our ingredients, those times.</parag><parag>Hello, you! this is my personal page. hope this will happen continuously &mdash;share some of mine here. if you have found something to talk about, just say "Hello, you!" to me</parag><img src="/hxsf.jpg" width="100%" height="auto"><img src="/hxsf.jpg" width="100%" height="auto"><parag>Our ingredients, those times.</parag><parag>Hello, you! this is my personal page. hope this will happen continuously &mdash;share some of mine here. if you have found something to talk about, just say "Hello, you!" to me</parag><img src="/hxsf.jpg" width="100%" height="auto"><img src="/hxsf.jpg" width="100%" height="auto"><parag>Our ingredients, those times.</parag><parag>Hello, you! this is my personal page. hope this will happen continuously &mdash;share some of mine here. if you have found something to talk about, just say "Hello, you!" to me</parag>';
 
 hfHead.appendChild(meridiem)
 hfHead.appendChild(info)
