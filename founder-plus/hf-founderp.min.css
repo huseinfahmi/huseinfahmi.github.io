@@ -36,3 +36,17 @@ multiple {
 box {
     margin: 5px;
 }
+
+separator-single {
+    display: block;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+
+separator-multiple {
+    display: block;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
