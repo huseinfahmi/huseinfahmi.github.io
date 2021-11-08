@@ -16,7 +16,7 @@ toggle.appendChild(bullet)
 meridiem.appendChild(toggle)
 meridiem.appendChild(note)
 
-article.innerHTML = '<single><parag><h3>Home Page</h3></parag><img src="/W1.webp" width="100%" height="auto"></single>';
+article.innerHTML = '<single><parag><h3>Home Page</h3></parag><img src="/W1.jpg" width="100%" height="auto"></single>';
 
 hfHead.appendChild(meridiem)
 hfHead.appendChild(info)
