@@ -28,7 +28,7 @@ function contents(e) {
     } else if (1 === e) {
         let e = document.createElement("about");
         (e.innerHTML =
-            '<img src="/huseinfahmi.jpg" width="100" height="100"><parag>Hello, you!</parag><parag>My name is Husein Fahmi. I\'m a Indonesian JavaScipt Eager-Learner living in Special Region of Yogyakarta with a passion for design, art, and technology.</parag><parag>If you want to say "hello, you!" to me. Just send an email to husefahmi@gmail.com</parag><parag>Also find me on: <a href="https://www.behance.net/huseinfahmi" target="_blank">Behance</a> and <a href="https://github.com/huseinfahmi" target="_blank">GitHub</a>.</parag>'),
+            '<img src="/huseinfahmi.jpg" width="100" height="100"><parag>Hello, you!</parag><parag>My name is Husein Fahmi. I\'m a Indonesian JavaScipt Eager-Learner living in Special Region of Yogyakarta with a passion for design, art, and technology.</parag><parag>If you want to say "hello, you!" to me. Just send an email to husefahmi@gmail.com</parag>'),
             document.querySelector("hf-main").appendChild(e);
     }
 }
